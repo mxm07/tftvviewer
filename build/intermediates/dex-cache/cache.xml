@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/maxmelo/Projects/tftv/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="fe87c88367e2a9ffe46d0887ae8ed5578adba556">
+        <dex dex="/Users/maxmelo/Projects/tftv/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_195f8b27c68f7c2eea0472f41e4fc19650bf3adb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/maxmelo/Projects/tftv/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/maxmelo/Projects/tftv/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_b3a3b168fae10fc15e27d18c7423a6e66e9b8f9c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/maxmelo/Projects/tftv/libs/jsoup-1.10.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="5df02f295714ac1b907d507dfea29a5a9f8f69ca">
+        <dex dex="/Users/maxmelo/Projects/tftv/app/build/intermediates/transforms/dex/debug/folders/1000/2/jsoup-1.10.3_981d9fb483f2e76a32293d40893c7f4e614120f1/classes.dex" />
+    </item>
+
+</items>

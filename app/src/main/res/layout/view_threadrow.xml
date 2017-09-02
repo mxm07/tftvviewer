@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.laz.tftv.ui.ThreadRow xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/thread_row"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="@drawable/threadrow_roundrect"
+    android:elevation="2dp">
+
+    <ImageButton
+        android:id="@+id/threadrow_down"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:backgroundTint="@android:color/transparent"
+        app:srcCompat="@drawable/threadrow_downarrow" />
+
+    <ImageButton
+        android:id="@+id/threadrow_up"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:backgroundTint="@android:color/transparent"
+        app:srcCompat="@drawable/threadrow_uparrow" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/threadrow_down"
+        android:layout_alignEnd="@+id/thread_row">
+
+        <TextView
+            android:id="@+id/threadrow_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="TextView"
+            android:textColor="@color/threadRowLink"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/threadrow_btn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@android:color/transparent"
+            android:gravity="left|center_vertical"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="@color/threadRowLink"
+            android:textSize="18sp" />
+
+    </FrameLayout>
+
+</com.laz.tftv.ui.ThreadRow>
