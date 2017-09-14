@@ -1,6 +1,29 @@
 <resources>
     <string name="app_name">TFTV</string>
+
+
     <string name="title_activity_thread">ThreadActivity</string>
     <string name="title_activity_threads">ThreadsActivity</string>
-    <string name="tftv_threads_link">http://www.teamfortress.tv/threads/</string>
+    <string name="title_activity_posts">PostsActivity</string>
+
+
+    <string name="links_main">http://www.teamfortress.tv/threads/</string>
+    <string name="links_threads_main">http://www.teamfortress.tv/threads/</string>
+
+    <!-- For threads activity -->
+    <string name="selectors_threadrow">.thread-inner</string>
+    <string name="selectors_threadrow_title">.main > .title</string>
+    <string name="selectors_threadrow_date_eta">.main > .description > .date-eta</string>
+    <string name="selectors_threadrow_date_full">.main > .description > .date-full</string>
+    <string name="selectors_threadrow_subforum">.main > .description > a</string>
+    <string name="selectors_threadrow_fragcount">.frag-container > .frag-count</string>
+    <string name="selectors_threadrow_poster">.main > .description</string>
+
+    <!-- For posts activity -->
+    <string name="selectors_post">.post</string>
+    <string name="selectors_post_content">.post-body > p</string>
+    <string name="selectors_post_author">.post-header > .post-author</string>
+    <string name="selectors_post_time"></string>
+    <string name="selectors_threadheadertitle">.threadheadertitle</string>
+
 </resources>

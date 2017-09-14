@@ -7,4 +7,7 @@
 
     <color name="threadRowBG">#f7f7f7</color>
     <color name="threadRowLink">#0c6d97</color>
+    <color name="threadRowDesc">#797979</color>
+
+    <color name="post_header">#ffffff</color>
 </resources>
